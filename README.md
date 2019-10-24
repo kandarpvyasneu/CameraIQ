@@ -57,7 +57,20 @@ http://localhost:8080/updateUser/1
 
 where 1 is the userId of an User.
 
-
+`
+{
+	"address" : "110 North Dr, Apt 00, Boston, MA 02215",
+	"email" : "abc.pqr@gmail.com",
+	"firstname" : "abc",
+	"lastname" : "pqr",
+	"phone" : "(098) 765 5432",
+	
+	"organization" :
+	{
+			"id" : 1
+	}
+}
+`
 
 * To delete a user from an organization, please use below JSON in postman
 
