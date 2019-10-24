@@ -9,7 +9,21 @@ I have used below technologies to develop the application REST API
 
 Factory design is more suited to this requirement.
 
+I have created two Database tables in MySQL
 
+* Organization
+* User
+
+I have created bidirectional mapping in hibernate
+
+* One-to-Many relationship from Organization to User.
+
+* Many-to-One relationship from User to Organization.
+
+
+
+
+![alt text](https://user-images.githubusercontent.com/46467710/67491976-bddb0500-f643-11e9-8e07-f504315466e0.png)
 
 To run this application, please change MySQL database credential, Username and Password in application.properties
 
