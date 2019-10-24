@@ -53,7 +53,6 @@ http://localhost:8080/createOrganization
 
 * To add a user to an organization, please use below JSON in postman
 
-`
 http://localhost:8080/updateUser/1
 
 where 1 is the userId of an User.
