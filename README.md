@@ -64,11 +64,12 @@ where 1 is the userId of an User.
 	"firstname" : "abc",
 	"lastname" : "pqr",
 	"phone" : "(098) 765 5432",
-	
+	`
 	"organization" :
 	{
 			"id" : 1
 	}
+	`
 }
 
 `
