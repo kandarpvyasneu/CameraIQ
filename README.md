@@ -49,7 +49,6 @@ http://localhost:8080/createOrganization
 	"lastname" : "pqr",
 	"phone" : "(098) 765 5432"
 }
-
 `
 
 * To add a user to an organization, please use below JSON in postman
@@ -60,7 +59,6 @@ http://localhost:8080/updateUser/1
 where 1 is the userId of an User.
 
 `
-
 {
 	"address" : "110 North Dr, Apt 00, Boston, MA 02215",
 	"email" : "abc.pqr@gmail.com",
@@ -73,7 +71,6 @@ where 1 is the userId of an User.
 			"id" : 1
 	}
 }
-
 `
 
 * To delete a user from an organization, please use below JSON in postman
