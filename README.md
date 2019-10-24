@@ -72,7 +72,6 @@ where 1 is the userId of an User.
 	}
 	`
 }
-`
 
 * To delete a user from an organization, please use below JSON in postman
 
